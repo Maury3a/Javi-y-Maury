@@ -1,0 +1,88 @@
+/*Tipografía de toda la página 
+	font-family: 'Roboto', sans-serif;*/
+
+/*Iconos- Nombre de las classes
+	icon-descarga
+	icon-flechas
+	icon-barras
+	icon-calendario
+*/
+
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+body,html{
+	font-size: 15px;
+}
+
+nav a.nav-item{
+	margin-left: 10px;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #494385 !important;
+}
+
+nav a.active{
+	color: #ff4a63 !important;
+}
+
+nav button.navbar-toggler{
+	border: none;
+	outline:none;
+}
+
+section#banner div.row{
+	background: url(../img/fondo.jpg) center center no-repeat / cover;
+	min-height: 100vh;
+	color: #fff;
+}
+
+section#banner div.row a{
+	font-size: 1.4rem;
+	color: #fff;
+	text-decoration: none;
+	border: solid 2px #fff;
+	padding: 20px 40px;
+	display: inline-block;
+	margin-top: 15px;
+
+}
+
+section#banner div.row a:hover{
+	color: #ff4a63;
+	border-color: #ff4a63;
+}
+
+section#banner div.row a span{
+	font-size: 3rem;
+	margin-left: 10px;
+	
+}
+
+section#servicios .row{
+	min-height: 100vh;
+	background-color: #ff4a63;
+	color: #fff;
+}
+
+section#servicios .row h2:after{
+	content: "";
+	display: block;
+	width: 90px;
+	height: 5px;
+	background-color: #fff;
+	margin: 15px auto;
+
+}
+
+section#servicios .row i{
+	font-size: 4rem;
+}
+
+footer{
+	background-color: #494385;
+	font-size: 1rem;
+	color: #fff;
+}
