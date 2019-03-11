@@ -1,0 +1,106 @@
+/*Tipografía de toda la página 
+	font-family: 'Roboto', sans-serif;*/
+
+/*Iconos- Nombre de las classes
+	.icon-icon1
+	.icon-icon2
+	.icon-icon3
+	.icon-icon4
+	.icon-icon5
+	.icon-icon6
+	*/
+
+/*No hace falta resetear porque ya lo hace bootstrap*/
+
+body,html{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+header{
+	position: absolute;
+	width: 100%;
+	padding: 15px 0;
+	border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+
+header nav a.nav-item{
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+header nav a.nav-item:hover{
+	color: #01ced1;
+}
+
+header nav button.navbar-toggler{
+	border: none;
+	outline: none;
+}
+
+
+section#banner{
+	min-height: 100vh;
+	background: url(../img/fondo.jpg) center center no-repeat / cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	text-align: center;
+}
+
+section#banner h1{
+	font-size: 3rem;
+	text-transform: uppercase;
+}
+
+section#banner h1 span{
+	color: #01ced1;
+}
+
+section#servicios{
+	min-height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section#servicios div.row h2{
+	text-align: center;
+	font-size: 1.8rem;
+	margin-bottom: 120px;
+	text-shadow: 0 0 5 rgba(0,0,0,.2);
+}
+
+section#servicios span{
+	color: #01ced1;
+}
+
+section#servicios article{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+section#servicios article div{
+	min-height: 150px;
+	border: 1px solid #c1c1c1;
+	padding: 10px;
+}
+
+section#servicios h3{
+	font-size: 1.2rem;
+}
+
+section#servicios p{
+	font-size: 0.8rem;
+	color: #c1c1c1;
+}
+
+section#servicios p:hover{
+	color: #01ced1;
+}
+
+section#servicios article div:hover{
+	color: #01ced1 !important;
+	border-color: #01ced1;
+}
